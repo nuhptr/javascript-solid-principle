@@ -1,0 +1,8 @@
+Association : memiliki hubungan “has-a” yang menyatakan 
+              bahwa sebuah kelas memiliki hubungan dengan 
+              kelas lainnya.
+Dependency  : hubungan ini memiliki arti bahwa 
+              sebuah kelas memiliki ketergantungan 
+              terhadap kelas lain.
+Generalization : memiliki hubungan “is-a” dari 
+                 kelas yang spesifik ke kelas yang lebih umum.
