@@ -1,0 +1,17 @@
+- Prinsip ini sendiri bertujuan untuk mengurangi jumlah ketergantungan 
+  sebuah class terhadap interface class yang tidak dibutuhkan. 
+  Faktanya, class memiliki ketergantungan terhadap class lainnya. 
+  Jumlah ketergantungan dari fungsi pada sebuah interface class yang 
+  dapat diakses oleh class tersebut harus dioptimalkan atau dikurangi. 
+  Mengapa penting? Terkadang ketika kita membuat sebuah class dengan 
+  jumlah fungsi dan properti yang banyak, class lain yang bergantung 
+  pada class tersebut hanya membutuhkan satu atau dua fungsi dari class tersebut. 
+  Ketergantungan antar class akan semakin bertambah seiring bertambahnya jumlah 
+  fungsi dan properti dari class yang dibutuhkan
+
+- Hal ini berarti bahwa class-class yang saling bergantung dapat 
+  berkomunikasi dengan menggunakan interface yang lebih kecil, 
+  mengurangi ketergantungan pada fungsi-fungsi yang tidak digunakan dan 
+  mengurangi coupling. Dengan menggunakan interface yang lebih kecil akan 
+  memudahkan dalam implementasi, meningkatkan fleksibilitas dan juga 
+  kemungkinan untuk digunakan kembali (reuse).

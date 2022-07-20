@@ -1,0 +1,41 @@
+- Sederhananya, Liskov’s substitution adalah aturan yang berlaku 
+  untuk hirarki pewarisan. Hal ini mengharuskan kita untuk mendesain 
+  kelas-kelas yang kita miliki sehingga ketergantungan antar klien 
+  dapat disubstitusikan tanpa klien mengetahui tentang perubahan yang ada. 
+  Oleh karena itu, seluruh SubClass setidaknya dapat berjalan dengan 
+  cara yang sama seperti SuperClass-nya.
+
+- Contravariant dan Covariant
+  Aturan pertama, SubClass harus memiliki sifat contravariant dan covariant. 
+  Contravariant adalah kondisi di mana parameter dari sebuah fungsi yang 
+  berada pada SubClass harus memiliki tipe dan jumlah yang sama dengan 
+  fungsi yang berada pada SuperClass-nya. 
+  Sedangkan Covariant adalah kondisi pengembalian nilai dari 
+  fungsi yang berada pada SubClass dan SuperClass.
+
+- Preconditions dan Postconditions
+  Selanjutnya adalah aturan preconditions dan postconditions. 
+  Ini merupakan tindakan yang harus ada sebelum atau sesudah sebuah 
+  proses dijalankan. Contohnya, ketika kita ingin memanggil sebuah fungsi 
+  yang digunakan untuk membaca data dari database, 
+  terlebih dahulu kita harus memastikan database tersebut dalam 
+  keadaan terbuka agar proses dapat dijalankan. Ini disebut sebagai 
+  precondition. Sedangkan postcondition, contohnya saat proses baca tulis 
+  di dalam database telah selesai, kita harus memastikan database tersebut 
+  sudah tertutup.
+
+- Invariant
+  Berikutnya adalah invariant. Dalam pembuatan sebuah SubClass, 
+  SubClass tersebut harus memiliki invariant yang sama dengan SuperClass-nya. 
+  Invariant sendiri adalah penjelasan dari kondisi suatu proses yang benar 
+  sebelum proses tersebut dimulai dan tetap benar setelahnya.
+
+- Constraint
+  Terakhir, aturan tentang constraint dari sebuah SubClass. 
+  Secara default, SubClass dapat memiliki fungsi dan properti dari 
+  SuperClass-nya. Selain itu, kita juga dapat menambahkan member 
+  baru di dalamnya. Constraint di sini adalah pembatasan yang ditentukan 
+  oleh SuperClass terhadap perubahan keadaan sebuah obyek. 
+  Sebagai contoh misal SuperClass memiliki obyek yang memiliki nilai tetap, 
+  maka SubClass tidak diijinkan untuk mengubah keadaan dari 
+  nilai obyek tersebut.

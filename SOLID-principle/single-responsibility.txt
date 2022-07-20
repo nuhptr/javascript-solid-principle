@@ -1,0 +1,20 @@
+- Tanggung jawab (responsibility) berarti bahwa jika suatu class 
+punya 2 (dua) fungsionalitas yang tak miliki keterkaitan untuk 
+melakukan suatu perubahan, maka kita harus membagi fungsionalitas 
+yang berbeda tersebut dengan cara memisahkannya menjadi 
+dua class yang berbeda. 
+
+- Maka dari itu, setiap class yang sudah dipisahkan berdasarkan 
+fungsionalitasnya hanya akan menangani satu tanggung jawab. 
+Lebih lanjut, jika kita melakukan perubahan tanggung jawab, 
+kita tinggal fokus pada masing-masing class yang 
+sudah dipisahkan tersebut. 
+
+- Apa tujuan menerapkan Single Responsibility? 
+Ketika kita ingin melakukan perubahan pada sebuah class yang memiliki 
+tanggung jawab yang banyak, perubahan yang akan dilakukan berpotensi 
+untuk mempengaruhi fungsionalitas dan tanggung jawab lain 
+yang saling berkaitan di dalam class tersebut.
+
+- Single Responsibility Principle adalah prinsip yang sederhana 
+dan intuitif, tetapi dalam praktiknya terkadang sulit untuk memperbaikinya. 
