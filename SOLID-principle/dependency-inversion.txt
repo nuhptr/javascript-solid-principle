@@ -1,0 +1,7 @@
+- apa yang dimaksud dengan high-level modules dan low-level modules? 
+  Agar lebih mudah memahaminya, kita dapat mengkategorikan kelas-kelas menjadi sebuah hirarki. 
+  High-level modules adalah kelas-kelas yang berurusan dengan kumpulan-kumpulan fungsionalitas. 
+  Pada hirarki tertinggi terdapat kelas-kelas yang mengimplementasikan aturan bisnis sesuai dengan 
+  desain yang telah ditentukan. Low-level modules bertanggung jawab pada operasi yang lebih detail. 
+  Pada level terendah memungkinkan modul ini untuk bertanggung jawab dalam menulis informasi 
+  ke database atau menyampaikan pesan ke sistem operasi. 
